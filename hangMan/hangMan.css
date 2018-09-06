@@ -1,0 +1,45 @@
+canvas {
+	background-color: #CBCEC5;
+	border: 2px solid #9E9793;
+}
+
+.container {
+	width: 600px;
+	padding: 10px;
+	border: 2px solid  #9FBBC3;
+	margin: auto;
+	background-color:  #C0AD96;
+}
+.nav {
+	background-color: #B7B7B2;
+	padding: 5px 5px;
+    margin: 0px 0px;
+}
+
+body {
+	background-color: #DFD3C3;
+}
+
+h1 {
+	color: #83382A;
+	text-align: center;
+	font-size: 4em;
+	margin: 0px;
+}
+
+#reset {
+	border: 0px;
+	margin: 0px 15px;
+	padding: 5px 5px;
+	width: 75px;
+	color: white;
+	background: #666D69;
+	text-align: center;
+	float: right;
+
+}
+.diplomat {
+	font-family:'Diplomata SC', cursive;
+	color: white;
+}
+

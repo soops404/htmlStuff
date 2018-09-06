@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flex Column </title>
+	<style type="text/css">
+		.header {
+			height: 50px;
+			background-color: green;
+		}
+		.header h1 {
+			text-align: center;
+		}
+		.row {
+		   display: flex;
+		   flex-wrap: wrap;
+		}
+		.left {
+			flex: 24%;
+		}
+		.middle {
+			flex: 46%;
+		}
+		.right {
+			flex: 24%;
+		}
+		.center {
+			width: 80%;
+			margin: 0px auto;
+		}
+		.textcolumn {
+			padding: 1%;
+		}
+		.center ul {
+			list-style : none;
+	   		display: flex;
+		   flex-wrap: wrap;	
+		   padding: 0px;
+		
+		}
+
+		.center li {
+			background-color: red;
+			color: yellow;
+			padding: 5px;
+			margin: 2px 5px;
+		}
+
+		.navbar {
+			background-color: yellow;
+		}
+		.navbar li:hover {
+			background-color: orange;
+		}
+		.footer {
+			height: 50px;
+			background-color: purple;
+		}
+		.footer h2 {
+			text-align: center;
+			color: white;
+		}
+		@media screen and (max-width: 1000px) {
+			.left { flex: 28%; }
+			.middle { flex: 68%; }
+		}
+		@media screen and (max-width: 700px) {
+			.row, .center li {
+				flex-direction: column;
+			}
+			.center {
+				width: 100%;
+			}
+		} 4
+
+
+
+	</style>
+</head>
+<body>
+
+	<h1 class = "center"> This is a header </h1>
+	<div class = "header center">
+		<h1> header </h1>
+	</div>
+	<div class = " navbar center">
+		<ul> 
+			<li> Fred </li>
+			<li> Mary </li>
+			<li> Joe </li>
+			<li> Fred </li>
+			<li> Mary </li>
+			<li> Joe </li>
+			<li> Fred </li>
+			<li> Mary </li>
+			<li> Joe </li>
+			<li> Fred </li>
+			<li> Mary </li>
+			<li> Joe </li>
+		</ul>
+	</div>
+	<div class="row center ">
+		<div class = "left textcolumn">
+			<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sagittis orci, convallis arcu ridiculus quis inceptos platea ac conubia cras, ligula curabitur mattis torquent nostra proin eleifend faucibus. Varius netus cursus accumsan libero, sagittis nisi in porta aliquet, eu habitasse imperdiet. Rhoncus cursus eu dictumst ultricies feugiat etiam cras parturient, in placerat viverra nam ligula senectus tristique faucibus, hac gravida cubilia praesent et platea imperdiet. Natoque cursus nunc orci vestibulum libero quisque viverra duis torquent ante pharetra ut, laoreet blandit montes tortor consequat vel dignissim eros integer cum.</p>
+		</div>
+		<div class = "middle textcolumn">
+			<p>ullam lectus nascetur ad imperdiet eget sem duis turpis iaculis est, gravida netus facilisi ornare tincidunt nunc eros donec nibh, auctor magna hendrerit eu mi litora conubia vehicula vel. Id fermentum eros nam quam varius vel, cum dictum sagittis laoreet tempus eget urna, fusce bibendum fames vulputate neque. Ullamcorper mauris sapien urna integer aenean sociosqu eleifend odio nam, tristique cum malesuada phasellus eu habitasse rutrum dis sociis, blandit sed nibh erat lectus etiam lacinia cursus. Torquent montes mattis penatibus pretium sagittis tempor senectus class tortor platea blandit interdum vitae, urna nullam nisl etiam est curae habitasse laoreet parturient vel neque.</p>
+			<img  width="80%" src="https://source.unsplash.com/RYCnmI4YfzY"> 		
+		</div>
+		<div class = "right textcolumn">
+			<p>Scelerisque sapien egestas cum justo accumsan nec rhoncus feugiat, bibendum dignissim euismod suscipit fusce senectus orci diam porta, vel risus maecenas hac inceptos ultrices lacus. Erat gravida molestie diam inceptos sem nunc id augue himenaeos habitant, etiam sagittis rutrum turpis rhoncus imperdiet conubia ligula accumsan vel pharetra, sollicitudin purus potenti nisl curae fames duis ullamcorper mi. Accumsan lectus senectus aenean mollis pulvinar eget duis, etiam sapien massa neque nibh consequat, dignissim vitae commodo porttitor felis praesent. Pharetra mus senectus facilisis montes nec curabitur diam massa dignissim platea, nibh sociis magnis vehicula cras aliquam parturient nisl justo, phasellus posuere purus dis ornare natoque aptent cubilia mauris.</p>
+		</div>
+	</div>
+	<div class="footer center">
+		<h2>This is a footer</h2>
+	</div>
+
+</body>
+</html>

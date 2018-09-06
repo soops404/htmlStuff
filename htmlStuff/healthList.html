@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Health List</title>
+	<style type="text/css">
+		.outside {
+			width: 150px;
+			height: 20px;
+			border: 2px solid blue;
+			border-radius: 25px;
+			background-color: white;
+			margin-top: 0px;
+		}
+		.progress {
+			height: 100%;
+			border-radius: 25px;
+
+		}
+		p {
+			margin: 5px 0px;
+			text-transform: uppercase;
+			color: #b16a37;
+			text-align: center;
+		}
+		.healthy {
+			background-color: green;
+		}
+		.unHealthy {
+			background-color: red;
+		}
+		#shtrH {
+			width: 50%;
+		}
+		#scrH {
+			width: 29%;
+		}
+		#amuC {
+			width: 80%;
+		}
+
+		li {
+			float:left;
+			margin: 0px 2px;
+			border: 2px solid blue;		
+			border-radius: 25px;
+			padding: 5px;
+			background-color: #d4d8d7;
+		}
+
+		ul {
+		    list-style: none;
+		    margin: 0px;
+		    padding: 0px;
+		}
+
+		.HealthContianer {
+			background-color: #4f4d51;
+			border: 2px solid #323639;
+			border-radius: 25px;
+			padding: 5px;
+			width: 518px;
+			margin: 0px auto;
+			overflow: auto;
+		}
+	</style>	
+</head>
+<body>
+
+<div class="HealthContianer">
+	<ul>
+		<li>
+			<p>Shooter Health</p>
+			<div class="outside">
+				<div class="progress healthy" id="shtrH">	
+				</div>
+			</div>
+		</li>
+		<li>
+			<p>Saucer Health</p>
+			<div class="outside">
+				<div class="progress unHealthy" id="scrH">
+				</div>
+			</div>	
+		</li>
+		<li>
+			<p>Faser Charge</p>
+			<div class="outside">
+				<div class="progress healthy" id="amuC">			
+				</div>
+			</div>
+		</li>
+	</ul>
+</div>
+
+
+</body>
+</html>
