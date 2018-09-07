@@ -1,0 +1,77 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Center Div</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <style type="text/css">
+        .row {
+            border: 4px solid blue;
+            margin: 25px;
+            overflow: auto;
+        }
+        .row img {
+            width: 45%;
+            min-width: 175px;
+            padding: 2px;
+            border: 2px solid red;
+        }
+        .column {
+            float: left;
+            border: 2px solid black;
+            padding: 5px;
+            width: 30%;
+            min-width: 185px;
+        }
+        .overDraw {
+            width: 75%;
+            max-width: 600px;
+            min-width: 300px;
+            min-height: 300px;
+            margin: 15px 10%;
+            position: absolute;
+			top: 50px;
+			left: 50px;
+			z-index: 10;
+			display: none; 
+            border: 2px solid black; 
+            background-color: rgba(125, 255, 125, 0.5);
+        }
+        .overDraw img {
+            width: 80%;
+            margin: 15px 10%;
+            position: relative;
+        }   
+        @media screen and (max-width: 600px) {
+			.overDraw {
+				left: 10px;
+			}
+		}
+    </style>
+
+</head>
+<body>
+        <div class="row">
+            <div class="overDraw">
+                <img  src="https://source.unsplash.com/iDhabYU71N0"> 
+            </div>
+            <div class="column">
+                <img  src="https://source.unsplash.com/iDhabYU71N0"> 
+                <img  src="https://source.unsplash.com/Sxm8FK0xc3Q"> 
+                <img  src="https://source.unsplash.com/uFPPaoocQFI"> 
+            </div>
+            <div class="column">
+                <img  src="https://source.unsplash.com/UPWflfjKLMM"> 
+                <img  src="https://source.unsplash.com/yHvvvBVS2wM"> 
+                <img  src="https://source.unsplash.com/lPpfSOPtbSI"> 
+                <img  src="https://source.unsplash.com/ihvWWW-Sdtw"> 
+            </div>
+            <div class="column">
+                <img  src="https://source.unsplash.com/sY6yvE0AUZo"> 
+                <img  src="https://source.unsplash.com/qhZCx3rZGL4"> 
+                <img  src="https://source.unsplash.com/MVT64DA8dqQ"> 
+            </div>
+        </div>
+        <script type="text/javascript" src="centerdiv.js"></script>
+</body>
+</html>
