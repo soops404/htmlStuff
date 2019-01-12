@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Progress Div</title>
+
+	<style type="text/css">
+		.outside {
+			width: 100px;
+			height: 20px;
+			border: 2px solid blue;
+			background-color: white;
+
+			margin-top: 0px;
+		}
+		.progress {
+			width: 50%;
+			height: 100%;
+			background-color: red;
+		}
+
+	</style>
+</head>
+<body>
+
+	<h1>Progress Div</h1>
+
+	<div class="outside">
+		<div class="progress">
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		var progress = document.querySelector(".progress");
+		var width = progress.style.width;
+		var pct = Math.round(60 / 210 *100);
+		progress.style.width = "40%"
+	</script>
+
+</body>
+</html>
