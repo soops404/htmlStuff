@@ -30,7 +30,7 @@
             <div class = "book col-sm-12">
                <h2>Here's the deal.</h2>
                <p>You, give me your email address. I won't share it. It's just between you and me.</p>
-                    <img  class= "bookImg" src="https://source.unsplash.com/kUDEpoMB-JI">
+                    <img  class= "bookImg" src="img/ericasparxZeroGravity.jpg">
                <p>Me, I've got a story for you. It's actually an excerpt from an unpublished novel about a guy and gal in space, but let's cut to the good part. They've been getting hot and heavy, and now it's time.</p>
                <p>Sex in Zero Gravity, my offer to you. Give it a read. It's five pages of clinging together while bouncing off the walls. It's a quickie. You'll like it. And you'll be on the list, so when I get a story out to Kindle Unlimited, you'll be ready.</p>
                <p>"Oh, hell, this wasn't high school She knew what that crescent smile meant. Tal wanted to get busy."</p>

@@ -17,7 +17,7 @@
                 <h1> Are you sure</h1>
                 <div id="splash" >
                     <h1>Warning!</h1>
-                    <img src="img/eighteen.jpg"/>
+                    <img src="img/stop.png"/>
                     <h2>Some things can't be unread</h2>
                     <p>If you're over 18 and not afraid of the feelings words can churn, enter</p>
                     <p> OTHERWISE, you better run</p>

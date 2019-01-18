@@ -8,7 +8,11 @@
     $returnVal;
 
     if(strcasecmp($code, 'ERICA') == 0) {
-        $returnVal = '<div class="bookDownloadList"><h2>Download Links</h2><ul><li><a href="/gitrep/erica/myBook.txt">Kindle Mobi</a></li><li><a href="#">EPub</a></li><li><a href="#">PDF</a></li></ul></div>';
+        $returnVal = '<div class="bookDownloadList">".
+                        "<h2>Download Links</h2><ul><li>".
+                        "<a href="./downloads/Sex in Zero Gravity - Erica Sparx.mobi">Kindle Mobi</a></li>".
+                        "<li><a href="./downloads/Sex in Zero Gravity - Erica Sparx.epub">EPub</a></li>".
+                        "<li><a href="./downloads/Sex in Zero Gravity - Erica Sparx.pdf">PDF</a></li></ul></div>';
     } else {
         $returnVal = '<div class="invalidEntry">Sorry, that\'s wrong, my dear.<div>';
     }
