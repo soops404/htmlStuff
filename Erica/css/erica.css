@@ -24,6 +24,16 @@
     font-family: 'Roboto Slab', serif;
     font-size: 1.5em;
 }
+.invalidEntry {
+    color:#170d74;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5em; 
+}
+.bookDownloadList a {
+    color:#170d74;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5em;     
+}
 .bookImg {
     width: 200px;
     text-align: center;
@@ -119,6 +129,9 @@
 .mc-field-group input {
     max-height: 2em;
     min-width: 80%;
+}
+.mc-field-group textarea {
+    min-width: 70%;
 }
 .mc-field-group label {
     color:#010910;

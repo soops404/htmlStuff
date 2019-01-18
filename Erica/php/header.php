@@ -6,10 +6,8 @@
     <meta charset="UTF-8">
     <!-- link rel ="stylesheet" type ="text/css" href= "ffa.css"> -->
     <link rel="stylesheet" href = "css/reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Peralta|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="css/erica.css" rel="stylesheet">
-
     <script src="js/jquery.js" type="text/javascript"></script>
     <TITLE>ERICA SPARX</TITLE>
 </HEAD>
@@ -54,6 +52,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactErica.php">Contact Me</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="submitCode.php">Get Download</a>
