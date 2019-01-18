@@ -2,8 +2,8 @@
 
     // Only process POST reqeusts.
       //Email information
-  ini_set('SMTP','localhost' );
-  ini_set('smtp_port',2525);
+ // ini_set('SMTP','localhost' );
+ // ini_set('smtp_port',2525);
   error_reporting(0);
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Get the form fields and remove whitespace.
