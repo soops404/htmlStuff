@@ -20,10 +20,10 @@
                     <img src="img/stop.png"/>
                     <h2>Some things can't be unread</h2>
                     <p>If you're over 18 and not afraid of the feelings words can churn, enter</p>
-                    <p> OTHERWISE, you better run</p>
-                    <div class="enterButton" id="entrBTN">
+                    <div class="enterButton">
                         <button type="button" id="enterBTN" class="btn btn-warning">ENTER</button>
                     </div>
+                    <p> OTHERWISE, you better run</p>            
                 </div>       
             </div>       
  
@@ -51,14 +51,12 @@
                         <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="contactErica.php">Contact Me</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="submitCode.php">Get Download</a>
                     </li>
+                    <!--
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Dropdown
@@ -72,7 +70,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
+                    </li>  -->
                     </ul>
                 </div>
             </nav>
