@@ -49,8 +49,4 @@
                     include 'php/subscribeForm.php'
                 ?>
             </div>
-            <div class="book">
-                <h2>My Book</h2>
-                <p>fdafkdas dsjflasdkk lkewfdj  dskjlasd o sdfkjlkasdfio jlasdflksdfiiu dfj idsol. dfjodafi sdfljsdfio sdfjlkuk</p>
-            </div>
         </div>

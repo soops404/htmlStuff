@@ -46,7 +46,7 @@
 }
 .Footer {
     background-color: rgb(18,33,41);
-    min-height: 50px;
+    min-height: 100px;
     margin-top: .5em;
 }
 .Erica {
@@ -142,7 +142,8 @@
 }
 .centerButton {
     display: flex; 
-    justify-content: center;            
+    justify-content: center;
+    padding-top: .5em;            
 }
 #splash button {
     font-size: 1.5em;

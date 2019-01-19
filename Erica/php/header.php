@@ -8,7 +8,7 @@
     <link rel="stylesheet" href = "css/reset.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="css/erica.css" rel="stylesheet">
-    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
     <TITLE>ERICA SPARX</TITLE>
 </HEAD>
 <body>
@@ -17,7 +17,7 @@
                 <h1> Are you sure</h1>
                 <div id="splash" >
                     <h1>Warning!</h1>
-                    <img src="img/stop.png"/>
+                    <img id = "stopSign" src="img/stop.png"/>
                     <h2>Some things can't be unread</h2>
                     <p>If you're over 18 and not afraid of the feelings words can churn, enter</p>
                     <div class="enterButton">
