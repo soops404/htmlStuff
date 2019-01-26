@@ -31,15 +31,14 @@
     <div class="container">  
 
         <div class="row">
-            <div class="Erica col-sm">
-                <h1>Erica Sparx</h1>
-            </div>
-        </div>
+            <div class="left col-md-8">
+                <div class="Erica">
+                    <h1>Erica Sparx</h1>
+                </div>
                     
 <!-- NAV BAR -->
 
-        <div class="row">
-            <nav class="navbar navbar-expand-lg navbar-dark  col-sm" style="background-color: rgb(18,33,41);">
+            <nav class="navbar navbar-expand-md navbar-dark  col-md" style="background-color: rgb(18,33,41);">
                 <a class="navbar-brand" href="#"><img src="img/heart-logo.jpeg" width="100" height="100" alt=""></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -74,9 +73,12 @@
                     </ul>
                 </div>
             </nav>
-        </div> 
-        <div class="row">
-            <div class="Erica Erica_subtitle col-sm">
+
+            <div class="Erica Erica_subtitle">
                 <h2>Don't worry, baby, I got you. Relax and Enjoy!</h2>
             </div>
-        </div>        
+        </div> <!-- end of left-->
+        <div class="right Erica col-md-4 d-none d-md-inline">
+            <img  src="img/ericaImage.jpg"/>
+        </div>            
+    </div>        

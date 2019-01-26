@@ -1,5 +1,9 @@
     
-  <div class="Footer row"> &nbsp; </div>
+  <div class="Footer row"> &nbsp; 
+      <div class="right Erica  col-sm d-inline d-md-none">
+            <img  src="img/ericaImage.jpg"/>
+      </div>
+  </div>
   <!-- close the container opened in the header -->
 </div>
    
