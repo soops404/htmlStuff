@@ -7,7 +7,8 @@
     <!-- link rel ="stylesheet" type ="text/css" href= "ffa.css"> -->
     <link rel="stylesheet" href = "css/reset.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link href="css/erica.css" rel="stylesheet">
+    <link href="css/basic.css" rel="stylesheet">
+    <link href="css/ericaColor.css" rel="stylesheet">
     <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
     <TITLE>ERICA SPARX</TITLE>
 </HEAD>
@@ -32,7 +33,7 @@
 
         <div class="row">
             <div class="left col-md-8">
-                <div class="Erica">
+                <div class="basicHeader">
                     <h1>Erica Sparx</h1>
                 </div>
                     
@@ -74,11 +75,11 @@
                 </div>
             </nav>
 
-            <div class="Erica Erica_subtitle">
+            <div class="basicHeader basicSubtitle">
                 <h2>Don't worry, baby, I got you. Relax and Enjoy!</h2>
             </div>
         </div> <!-- end of left-->
-        <div class="right Erica col-md-4 d-none d-md-inline">
+        <div class="right basicHeader col-md-4 d-none d-md-inline">
             <img  src="img/ericaImage.jpg"/>
         </div>            
     </div>        
