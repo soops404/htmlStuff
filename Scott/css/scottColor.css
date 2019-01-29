@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Racing+Sans+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+.book {
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, rgb(38, 30, 153) 20%, rgb(155, 154, 158) 80%);
+    background-repeat: repeat;
+    border: .5em rgb(176, 163, 182) solid;
+}
+.book h2 {
+    color: rgb(255,218,185);
+}
+.book h3 {
+    color: rgb(229, 238, 215);
+}
+.book p {
+    color:#e3eaf0;
+    font-family: 'Roboto Slab', serif;
+}
+.invalidEntry {
+    color:#170d74;
+    font-family: 'Roboto Slab', serif;
+}
+.bookDownloadList a {
+    color:#170d74;
+    font-family: 'Roboto Slab', serif;
+}
+.Footer {
+    background-color:rgb(38, 30, 153)
+}
+.basicHeader {
+    background-color: rgb(38, 30, 153)
+}
+.basicHeader h1 {
+    font-family: 'Racing Sans One', cursive;
+    color: rgb(212,26,66);
+}
+.basicHeader h2 {
+   font-family: 'Racing Sans One', cursive;
+    color: rgba(236, 227, 229, 0.808);
+}
+.container {
+    background-color: rgb(176, 163, 182);
+}
+.mc-field-group label {
+    color:#010910;
+    font-family: 'Roboto Slab', serif;
+}
