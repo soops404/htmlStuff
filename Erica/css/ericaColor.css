@@ -1,0 +1,45 @@
+.book {
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, rgba(153, 30, 126, 1) 20%, rgba(249,170,187, 1) 80%);
+    background-repeat: repeat;
+    border: .5em rgb(176, 163, 182) solid;
+}
+.book h2 {
+    color: rgb(255,218,185);
+}
+.book h3 {
+    color: rgb(144, 15, 218);
+}
+.book p {
+    color:#010910;
+    font-family: 'Roboto Slab', serif;
+}
+.invalidEntry {
+    color:#170d74;
+    font-family: 'Roboto Slab', serif;
+}
+.bookDownloadList a {
+    color:#170d74;
+    font-family: 'Roboto Slab', serif;
+}
+.Footer {
+    background-color: rgb(18,33,41);
+}
+.basicHeader {
+    background-color: rgb(18,33,41);
+}
+.basicHeader h1 {
+    font-family: 'Oleo Script', cursive;
+    color: rgb(249,170,187);
+}
+.basicHeader h2 {
+    font-family: 'Oleo Script', cursive;
+    color: rgb(202, 98, 121);
+}
+.container {
+    background-color: rgb(176, 163, 182);
+}
+.mc-field-group label {
+    color:#010910;
+    font-family: 'Roboto Slab', serif;
+}

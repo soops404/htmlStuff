@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+.book {
+    min-height: 250px;
+    border-radius: 2em;
+    padding: 1em;
+}
+.book h2 {
+    font-size: 2em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+.book h3 {
+    font-size: 2.5em;
+}
+.book p {
+    font-size: 1.5em;
+}
+.invalidEntry {
+    font-size: 1.5em; 
+}
+.bookDownloadList a {
+    font-size: 1.5em;     
+}
+.bookImg {
+    width: 200px;
+    text-align: center;
+    margin-right: 1em;
+}
+.navbar-brand {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.Footer {
+    min-height: 100px;
+    margin-top: .5em;
+}
+.basicHeader{
+    padding-left: 2em;
+}
+.basicSubtitle {
+    padding-bottom: .5em;
+}
+.basicHeader h1 {
+    padding-top: .5em;
+    margin-bottom: 0;
+    font-size: 3.5em;
+}
+.basicHeader h2 {
+    font-size: 2em;
+    padding-top: .5em;
+    display: inline;
+    text-align: right;    
+}
+
+.right img {
+    max-width: 250px;
+    max-height: 250px;
+    padding: 1em;
+    margin-right: 15%;
+    float: right;
+    border-radius: 2em;
+}
+.left {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#hideScreen {
+    position:fixed;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+    background-color:rgba(88, 50, 50, .95);
+    z-index: 10;
+}
+
+#hideScreen h1 {
+    width: 50%;
+    margin: auto;
+}
+
+#splash {
+    position:fixed;
+    top: 2em;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 1);
+    width: 100%;
+    min-width: 300px;
+    z-index: 100;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 2em;
+    border: .5em rgb(176, 163, 182) solid;
+}
+#splash img {
+    width: 90%;
+    max-width: 400px;
+    padding: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.enterButton {
+    display: flex; 
+    justify-content: center;
+}
+#splash h1 {
+    text-align: center;
+    font-family: 'Oleo Script', cursive;           
+}
+#splash h2 {
+    text-align: center;
+    font-family: 'Oleo Script', cursive;
+}
+.mc-field-group input {
+    max-height: 2em;
+    min-width: 80%;
+}
+.mc-field-group textarea {
+    min-width: 70%;
+}
+.mc-field-group label {
+    font-size: 1.25em;
+    margin-right: .5em;
+    margin-top: .5em;
+}
+.centerButton {
+    display: flex; 
+    justify-content: center;
+    padding-top: .5em;            
+}
+#splash button {
+    font-size: 1.5em;
+    margin:  1.5em;
+    border-radius: 1em;
+}
+  
+
+@media only screen and (min-width: 600px)  {
+    #splash {
+        width: 50%;
+        margin-left: 25%;
+    }
+}
+
+@media only screen and (min-width: 991.98px)  {
+    .bookImg {
+        float:left;
+    }
+}
+@media only screen and (min-width: 1100px)  {
+    #splash {
+        width: 33%;
+        margin-left: 33%;
+    }
+}
